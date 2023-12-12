@@ -1,0 +1,33 @@
+/* 
+Name: Harshdeep Singh
+Std no.: 8910992
+*/
+
+main
+{ 
+  padding: 0rem;
+  background-color: hsl(327, 39%, 58%);   
+}
+#gal
+{
+  display: grid;
+  grid-gap: 10px;
+  max-width: 1200px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+img
+{
+  width:80%;
+  height:80%;
+}
+@media(max-width: 600px)
+{
+  #gallery{
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
+
+  

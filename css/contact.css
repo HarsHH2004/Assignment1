@@ -1,0 +1,32 @@
+/* 
+Name: Harshdeep Singh
+Std no.: 8910992
+*/
+
+main
+{
+    background-color: hsl(66, 83%, 28%);
+}
+form
+{
+    font: normal normal normal 12px/1.5 Verdana ,Arial, Helvetica, sans-serif;
+}
+legend
+{
+    font-weight: bold;
+    font-size: 1rem;
+}
+input[type=text], input[type=submit], select, option
+{
+    display:block;
+    width:50%;
+    height:1.5em;
+}
+
+select, option, label, legend
+{
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 1rem;
+}
+

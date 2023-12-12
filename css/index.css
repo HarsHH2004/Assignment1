@@ -1,0 +1,38 @@
+/* 
+Name: Harshdeep Singh
+Std no.: 8910992
+*/
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 59%;
+}
+td, th {
+  border: 1px solid #ef6b6b;
+  text-align: left;
+  padding: 0.3rem;
+}
+table, th, td {
+  border:1.5px solid black;
+}
+  
+tr:nth-child(even) {
+  background-color: #9d6262;
+}
+.h{  
+  border: 5px solid black;
+  width: 15%;
+  height: 15%;
+  shape-outside: ellipse(20% 50%);
+  clip-path: ellipse(20% 50%);
+}
+#img{
+  height:100%;
+  width:100%;
+}
+q{ 
+    font-family: cursive; 
+    font-style: bold;  
+    font-size: medium; 
+}
